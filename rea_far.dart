@@ -6,5 +6,5 @@ void main() {
 
   var reaumur = (fahrenheit - 32) * 4 / 9;
 
-  print('$fahrenheit derajat Fahrenheit = $reaumur derajat Reaumur'); 
+  print('$fahrenheit degree Fahrenheit = $reaumur degree Reaumur'); 
 }

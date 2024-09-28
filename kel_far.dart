@@ -4,7 +4,7 @@ void main() {
   stdout.write('Enter a number: ');
   var fahrenheit = num.parse(stdin.readLineSync()!);
 
-  var celsius = (fahrenheit - 32) * 5 / 9;
+  var kelvin = (fahrenheit - 32) * 5 / 9 + 273.15;
 
-  print('$fahrenheit degree Fahrenheit = $celsius degree Celsius'); 
+  print('$fahrenheit degree Fahrenheit = $kelvin degree Kelvin'); 
 }
